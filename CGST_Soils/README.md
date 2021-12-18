@@ -28,4 +28,4 @@ This folder contains the following Matlab scrips and files:
 
 - 'qp.math', 'thtp.math', and 'pp.math' are files containing the flow solution (\psi,\theta,q) stored at thre CGST sampling times.
 
-'convf.mat', convc1.math', and 'convc2.math' are files containing the norms of succesive correction of the flow an dtransport solutions during the L-scheme 	iterative procedure.
+- 'convf.mat', convc1.math', and 'convc2.math' are files containing the norms of succesive correction of the flow an dtransport solutions during the L-scheme 	iterative procedure.
