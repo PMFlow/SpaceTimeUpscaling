@@ -1,4 +1,4 @@
-# SpaceTimeUpscaling
+## SpaceTimeUpscaling
 ## Data repository accompanying the paper "Space-time upscaling of reactive transport in porous media" by Nicolae Suciu and Florin A. Radu
 
 
@@ -10,10 +10,10 @@ The codes for verification tests and applications to one-dimensional biodegradat
 soils are included in the following folders:
 
 #
-### Verification
+#### Verification
 #
-### Bimolecular_reactions
+#### Bimolecular_reactions
 #
-### CGST_Aquifers
+#### CGST_Aquifers
 #
-### CGST_Soils
+#### CGST_Soils
