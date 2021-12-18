@@ -10,10 +10,10 @@ The codes for verification tests and applications to one-dimensional biodegradat
 soils are included in the following folders:
 
 #
-##Verification
+## Verification
 #
-##Bimolecular_reactions
+## Bimolecular_reactions
 #
-##CGST_Aquifers
+## CGST_Aquifers
 #
-##CGST_Soils
+## CGST_Soils
