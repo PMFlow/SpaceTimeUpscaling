@@ -6,7 +6,7 @@ The repository contains coarse grained space-time (CGST) averaging procedures em
 algorithms to solve problems for reactive transport in natural porous media. The CGST averages perform an space-time upscaling of the fine 
 grained concentrations of the reacting chemical species to the spatio-temoral scale of a hypothetic measurement.
 #
-The codes for verification tests and applications to one-dimensional biodegradation processes in saturated aquifers and variably saturated 
+The codes for verification tests of the CGST-GRW method and applications to one-dimensional biodegradation processes in saturated aquifers and variably saturated 
 soils are included in the following folders:
 
 #
