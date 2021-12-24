@@ -22,7 +22,7 @@ for x=1:I
             for m=1:length(mx)
                 if abs(x*dx-mx(m))<=a && abs(xa*dx-mx(m))<a
                     dmxx(m)=dmxx(m)+nsta*xa*dx/(2*a);
-                    dmvv(m)=dmvv(m)+nsta*(xa-x)*dx/dt/(2*a);
+                    dmvv(m)=dmvv(m)+n(x)*(xa-x)*dx/dt/(2*a);
                 end
             end
             if(njump)>0
@@ -46,7 +46,6 @@ for x=1:I
                                 for m=1:length(mx)
                                     if abs(xa*dx-mx(m))<=a && abs(xj*dx-mx(m))<a
                                         dmxx(m)=dmxx(m)+nj(i)*xj*dx/(2*a);
-                                        dmvv(m)=dmvv(m)+nj(i)*(xj-xa)*dx/dt/(2*a);
                                         dmxv(m)=dmxv(m)+nj(i)*xa*(xj-xa)*dx*dx/dt/(2*a);
                                     end
                                 end
