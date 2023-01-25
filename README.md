@@ -9,17 +9,17 @@ grained concentrations of the reacting chemical species to the spatio-temoral sc
 The codes for verification tests of the CGST-GRW method and applications to one- and two-dimensional biodegradation processes in saturated aquifers and variably saturated soils are included in the following folders:
 
 #
-### 1D:
-#### Verification
+### 1D/
+- Verification
 #
-#### Bimolecular_reactions
+- Bimolecular_reactions
 #
-#### CGST_Aquifers
+- CGST_Aquifers
 #
-#### CGST_Soils
+- CGST_Soils
 #
-### 2D:
-#### Verification
+### 2D/
+- Verification
 #
-#### CGST_Soils
+- CGST_Soils
 
