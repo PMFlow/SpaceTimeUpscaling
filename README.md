@@ -17,8 +17,6 @@ The codes for verification tests of the CGST-GRW method and applications to one-
 #### CGST_Aquifers
 #
 #### CGST_Soils
-
-#
 ## 2D:
 #### Verification
 #
