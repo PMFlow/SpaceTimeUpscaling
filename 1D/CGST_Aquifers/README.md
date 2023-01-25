@@ -1,4 +1,4 @@
-#### This folder contains the following Matlab scrips and files:
+This folder contains the following Matlab scrips and files:
 #
 
 - 'main_1D_Monod2_rand.m' is the main program for simulations of biodegradation in heterogeneous aquifers.
