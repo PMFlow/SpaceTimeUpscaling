@@ -33,31 +33,3 @@ ylabel('$<1_2>/\,\mathcal{N}$','Interpreter','latex');
 plot(x(:,1:10:end),(mc1(:,1:10:end)+mc2(:,1:10:end))/2/N,'k-s','MarkerSize',4,LineWidth = 0.75); 
 legend(strvect,'Location','best'); legend('boxoff');
 
-figure
-P=plot(x,mxx1./mc1); 
-set(P,NameArray,ValueArray,LineWidth = 1.5); 
-xlabel('$x$','Interpreter','latex');
-ylabel('$\overline{x}_1(z,t)$','Interpreter','latex'); 
-legend(strvect,'Location','best'); legend('boxoff');
-
-figure
-P=plot(x,mvv1./mc1); 
-set(P,NameArray,ValueArray,LineWidth = 1.5); 
-xlabel('$x$','Interpreter','latex');
-ylabel('$\overline{\xi}_1(z,t)$','Interpreter','latex'); 
-legend(strvect,'Location','best'); legend('boxoff');
-
-figure
-P=plot(x,mxv1./mc1);
-set(P,NameArray,ValueArray,LineWidth = 1.5); 
-xlabel('$x$','Interpreter','latex');
-ylabel('$\overline{x\xi}_1(z,t)$','Interpreter','latex'); 
-legend(strvect,'Location','best'); legend('boxoff');
-
-figure
-P=plot(x,(-mxv1./mc1/D-1)*100);
-set(P,NameArray,ValueArray,LineWidth = 1.5);  
-xlabel('$x$','Interpreter','latex');
-ylabel('$(cg\_D-D)/D$ [\%]','Interpreter','latex'); 
-legend(strvect,'Location','best'); legend('boxoff');
- 
