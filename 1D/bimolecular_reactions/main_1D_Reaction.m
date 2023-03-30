@@ -8,10 +8,10 @@ I = it+1;
 x1=0; x2=1;
 dx = (x2-x1)/(I-1);
 x = (x1:dx:x2);
-T = 1;
-tau=T/10;
-a=(x2-x1)/20; ia=round(a/dx);
-mt=(tau:4*tau:T);
+T = 1.1;
+tau=0.1;
+a=(x2-x1)/30; ia=round(a/dx);
+mt=[0.1 0.5 1]; 
 mx=(3/2*a:0.1*a:x2-3/2*a); imx=round(mx/dx);
 fprintf('a = %.2f tau = %.2f\n',a,tau);
 %% Parameters
