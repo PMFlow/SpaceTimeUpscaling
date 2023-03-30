@@ -4,17 +4,17 @@ clear all; close all;
 tic
 initstate; state;
 %% Grid Initialization
-irand=1; % 0=determinist; 1=random
+irand=0; % 0=determinist; 1=random
 R=1; % 100; % number of realizations
 it = 400;
 I = it+1;
 x1=0; x2=1;
 dx = (x2-x1)/(I-1);
 x = (x1:dx:x2);
-a=(x2-x1)/20; ia=round(a/dx);
-T = 1.2; 
-tau=0.2;
-mt=(tau:2*tau:T-tau);
+a=(x2-x1)/30; ia=round(a/dx);
+T = 1.1; 
+tau=0.1;
+mt=[0.1 0.5 1];
 mx=(1*a:0.1*a:x2-1*a); imx=round(mx/dx);
 fprintf('a = %.2f tau = %.2f\n',a,tau);
 %% Parameters
